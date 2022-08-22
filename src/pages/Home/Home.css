@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.main-banner {
+    width: 100%;
+    height: 100%;
+    border: 0px solid;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.main-banner img {
+    width: 100%;
+}
+
+.main-banner-inside {
+    text-align: left;
+
+}
+
+.main-banner-inside>h1 {
+
+    margin-top: -200px;
+}
+
+.pop-ul-li {
+    padding-top: 30px;
+    border: 0px solid;
+    width: 33%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.pop-ul-li li {
+    padding: 10px;
+    margin: auto;
+    color: grey;
+    border: 1px solid;
+}
+
+/*  */
+.popular-section {
+    margin: auto;
+    width: 100%;
+    height: 90%;
+    border: 0px solid red;
+    padding-bottom: 30px;
+}
+
+.productsecc img {
+    width: 100%;
+}
+
+.productsecc-main {
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+}
+
+.productsecc {
+    margin: auto;
+    padding: 5px;
+
+    text-align: center;
+    width: 100%;
+    height: 360px;
+    /* border: 4px solid red; */
+    display: flex;
+    overflow-x: scroll;
+    text-align: left;
+
+}
+
+.productsecc>div {
+    border: 2px solid;
+
+}
+
+.productsecc::-webkit-scrollbar {
+    display: none;
+}
+
+.men-women-grid {
+    width: 100%;
+    height: 400px;
+    border: 0px solid green;
+}
+
+.slide-box {
+    width: 290px;
+    height: 340px;
+    border: 0px solid;
+    padding: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#left-h1-tag {
+    font-family: 'Russo One', sans-serif;
+    padding-left: 0px;
+    text-align: left;
+    margin: 60px;
+}
+
+.men-women-grid {
+    margin-top: 30px;
+    margin: auto;
+    width: 96%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.men-women-grid img {
+    width: 90%;
+    height: 400px
+}
+
+.men-women-grid div {
+    margin-top: 30px;
+    border: 0px solid;
+    height: 400px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#banner-heading h1 {
+    padding-left: 10px;
+
+    font-size: 35px;
+    text-align: left;
+    margin-top: -200px;
+}
+
+#banner-heading p {
+    padding-left: 10px;
+    font-size: 20px;
+    text-align: left;
+
+}
+
+#banner-heading button {
+    margin-top: 20px;
+    margin-left: -700px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: 0px solid;
+    font-size: 15px;
+
+
+}
+
+
+
+/* /////////whts hot////////////// */
+.whtshot-container {
+    margin: auto;
+    margin-top: 30px;
+    width: 100%;
+    height: 100%;
+    border: 0px solid;
+    text-align: center;
+}
+
+.wht-hot-grid {
+    margin: auto;
+    border: 0px solid;
+    width: 95%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding-bottom: 70px;
+}
+
+.wht-hot-grid div img {
+    width: 100%;
+}
+
+/* .................. */
+.secondlast-container {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    width: 100%;
+    height: 100%;
+    background-color: #e9ecef;
+    color: rgb(0, 0, 0);
+}
+
+.secondlast-container div {
+    margin: auto;
+    width: 40%;
+    text-align: left;
+    border: 0px solid rgb(255, 0, 0);
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.secondlast-container div h4 {
+
+    padding: 10px;
+
+}
+
+/*  */
+.slide-div {
+    width: 300px;
+    height: 400px;
+    border: 0px solid;
+    font-Weight: 600
+}
+
+NavLink {
+    color: black;
+}
+
+/* ....................mid screeen................. */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .men-women-grid {
+        margin-top: 30px;
+        margin: auto;
+        width: 96%;
+        display: grid;
+        grid-template-columns: repeat(3, 32%);
+        gap: 20px;
+    }
+
+    .splider img {
+        width: 300px;
+    }
+
+    .slide-box {
+        width: 300px;
+        height: 340px;
+        border: 0px solid;
+        padding: 10px;
+    }
+
+    .productsecc {
+        border: 3px solid;
+        display: flex;
+        overflow-x: scroll;
+    }
+
+    .productsecc::-webkit-scrollbar {
+        display: none;
+    }
+}

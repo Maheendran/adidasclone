@@ -1,0 +1,62 @@
+.Login_main{
+    display: flex;
+    gap: 30px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 30px;
+    border: 0px solid;
+    margin-top: -100px;
+}
+.Already_user{
+    width: 50%;
+    border: 1px solid ;
+    padding: 20px 2px;
+}
+.New_user{
+    width: 50%;
+    border: 1px solid ;
+}
+.title_div{
+ 
+    width: 80%;
+    border-bottom: 0.5px solid;
+     margin: auto;
+     padding: 5px;
+     margin-bottom: 20px;
+     
+}
+.title_div h1{
+     font-weight: bold;
+}
+ input{
+    height: 20px;
+    width: 80%;
+    border: 0.5px solid;
+    padding: 15px 2px;
+    margin-top: 15px;
+    background-color: #e8f0fe
+}
+.Already_user button{
+  
+    border: 0.5px solid;
+    padding: 7px 100px;
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+}
+.New_title_div{
+    width: 80%;
+    border-bottom: 0.5px solid;
+     margin: auto;
+     padding: 5px;
+     margin-top: 20px;
+     font-weight: bold;
+     margin-bottom: 30px;
+}
+.New_user button{
+    border: 0.5px solid;
+    padding: 7px 100px;
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+/* padding: 0; */
+}
+.container{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.men-first-head{
+   
+    margin-top: 30px;
+    /* width: 100%; */
+    border: 0px solid;
+    text-align: left;
+    align-items: center;
+}
+.men-first-head h1{
+margin-top: 20px;
+}
+.men-first-head ul{
+    align-items: center;
+    display: flex;
+}
+.men-first-head ul li{
+    font-size: 14px;
+    padding: 5px;
+}
+.men-head-bottom{
+    align-items: center;
+    margin-top: 30px;
+    width: 100%;
+    height: 100px;
+    border: 0px solid;
+    display: flex;
+   
+  
+}
+.men-head-bottom button{
+  
+    width: 100px;
+    height: 30px;
+    border: 2px solid;
+ }
+.men-prod-grid{
+    margin: auto;
+    box-sizing: border-box;
+    width: 95%;
+    border: 0px solid;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    overflow: hidden;
+   text-align: left;
+  
+}
+.men-pro-div{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    align-items: center;
+    border-radius: 5px;
+   align-items: center;
+   border: 0px solid;
+ padding: 10px;
+   padding-bottom: 15px; 
+}
+#menimage-front{
+    overflow:hidden;
+    width: 100%;
+    padding: 10px;
+}
+#menimage-front:hover{
+    overflow:hidden;
+    transform: scale(1.1);
+    transition: 1s ease-in-out;
+   
+ 
+}
+
+.men-prod-grid img{
+    overflow: hidden;
+    margin: auto;
+    width: 100%;
+
+    border-radius: 5px;
+    /* border: 2px solid; */
+   
+   
+}
+.men-prod-grid>div:hover{
+
+    overflow: hidden;
+    box-sizing: border-box;
+  
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.Price_div button{
+    border: 0px solid;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+font-weight: 500;
+}
+.Price_div button:hover{
+    background-color: grey;
+    color: white;
+    transition: 0.5s;
+}
+.filter-btn{
+    padding: 50px;
+}
+.filter-btn button{
+    border: 0px solid;
+    border-radius: 5px;
+    margin-left: 10px;
+  
+
+}
+
+/* ////////////////////// */
+.filter-bar{
+    width: 20%;
+    height: 100vh;
+    border: 1px solid;
+    position: fixed;
+    right: 0%;
+    top: 0;
+    z-index: 10000;
+    background-color: rgb(255, 255, 255);
+opacity: 1;
+
+
+}
+.filter-bar-sort button{
+    width: 100%;
+}
+.checkbtn{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+  border-radius: 10px;
+    border: 1px solid;
+    margin-left: 30px;
+    padding: 10px;
+  }
+  #check{
+    display: none;
+    text-align: right;
+   
+    border: 2px solid;
+  }
+ #check:checked~.filter-bar{
+    opacity: 1;
+   right: 0;
+   transition: all 0.7s;
+ }
+ .checkbtn{
+    display: block;
+  }
+ 
+    #sort{
+        width: 100%;
+        height: 50px;
+    }

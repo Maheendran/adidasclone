@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+/* padding: 0; */
+}
+.container{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.kid-first-head{
+   
+    margin-top: 30px;
+    width: 100%;
+    border: 0px solid;
+    text-align: left;
+    align-items: center;
+}
+.kid-first-head ul{
+    align-items: center;
+    display: flex;
+}
+.kid-first-head ul li{
+    font-size: 14px;
+    padding: 5px;
+}
+.kid-head-bottom{
+   
+    align-items: center;
+    margin-top: 30px;
+    width: 100%;
+    height: 100px;
+    border: 0px solid;
+    display: flex;
+  
+}
+.kid-head-bottom button{
+  
+   width: 100px;
+   height: 30px;
+   border: 2px solid;
+}
+.kid-prod-grid{
+    margin: auto;
+    box-sizing: border-box;
+    width: 95%;
+    border: 0px solid;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    overflow: hidden;
+}
+.kid-prod-grid img{
+    width: 100%;
+}
+.kid-prod-grid div:hover{
+    overflow: hidden;
+    box-sizing: border-box;
+    border: 1px solid;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.kidimage-front {
+    opacity: 1;
+    
+}
+.kidimage-rear {
+    opacity: 0;
+    
+   margin-top: -450px;
+    transition: opacity 0.1s ease-out;
+    z-index: -1;
+}
+
+.kidimage-front:hover{
+visibility:hidden;
+}
+
+.kidimage-rear:hover{
+    height: 90%;
+    opacity: 1;
+    z-index: 1;
+}
+.Price_div button{
+    border: 0px solid;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+font-weight: 500;
+}
+.Price_div button:hover{
+    background-color: grey;
+    color: white;
+    transition: 0.5s;
+}
+.filter-btn{
+    padding: 50px;
+}
+.filter-btn button{
+    border: 0px solid;
+    border-radius: 5px;
+    margin-left: 10px;
+  
+
+}
